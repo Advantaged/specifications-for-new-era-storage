@@ -29,7 +29,7 @@ and switching device.
 #### Controller and Switching:
 
 * **Phison Controller**: Use a Phison or similar controller to manage data transfer between the NVMe SSDs and the 
-QSFP28 interface. The minimum/default LBA/LBS (Logical-Block-Address/Logical-Block-Size) is 4Kib.
+QSFP28 interface. The minimum/default LBA/LBS (Logical-Block-Address/Logical-Block-Size) is 4KiB. The total capacity is given in full TiB plus 1%.
 * **Switching Device**: Implement a small switching device to distribute data efficiently among the NVMe SSDs.
 
 ## Advantages of Modern Solutions
